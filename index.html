@@ -17,23 +17,31 @@ and open the template in the editor.
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Crimson+Text:wght@700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="Efecto.js">
     </head>
     <body>
-        <div class="container">
+        <header class="container">
             <nav class="nav-main">
-                <img src="img/LOG.png" alt="logo" class="nav-log">
+                <a href="#"class="nav-log">
+                    <img height="60" width="50" src="img/LOG.png" alt="logo" >
+                </a>
+                <button class="open-menu" aria-label="abrir menu">
+                    <i class="fas fa-2x fa-bars"></i>
+                </button>
                 <ul class="nav-con">
+                    <button  class="close-menu" aria-label="cerrar menu">
+                        <i  class="fas fa-2x fa-window-close" alt="cerrar menu"></i>
+                    </button>
                     <li><a href="#">Telefonia y accesorios</a></li>
                     <li><a href="#">Sonido</a></li>
                     <li><a href="#">Gaming</a></li>
                     <li><a href="#">Electrodomesticos</a></li>
+
                 </ul>
-                <ul>
-                    <li>
-                        <i class="fas fa-star"></i>
-                    </li>
-                </ul>
-                <i></i>
+                <button class="search">
+                    <i class="fas fa-2x fa-search"></i>
+                </button>
+
             </nav>
             <hr>
             <header class="he">
@@ -51,6 +59,6 @@ and open the template in the editor.
                     </a>
                 </div>
             </section>
-        </div>
+        </header>
     </body>
 </html>
